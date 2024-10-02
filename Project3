@@ -1,0 +1,22 @@
+# [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Root: İlk eleman olan 7, ağacın kökü (root) olarak atanır.
+5, root'tan küçük olduğu için soluna eklenir.
+1, root'tan ve 5'ten küçük olduğu için 5'in soluna eklenir.
+8, root'tan büyük olduğu için sağına eklenir.
+3, root'tan ve 5'ten küçük, 1'den büyük olduğu için 1'in sağına eklenir.
+6, root'tan küçük, 5'ten büyük olduğu için 5'in sağına eklenir.
+0, root'tan, 5'ten ve 1'den küçük olduğu için 1'in soluna eklenir.
+9, root'tan ve 8'den büyük olduğu için 8'in sağına eklenir.
+4, root'tan ve 5'ten küçük, 1'den ve 3'ten büyük olduğu için 3'ün sağına eklenir.
+2, root'tan, 5'ten ve 1'den küçük, 0'dan büyük olduğu için 0'ın sağına eklenir. (veya 3'ten küçük 1'den büyük oldugu icin 1'in sagina 3'ün soluna eklenebilir.)
+
+7
+      / \
+     5   8
+    / \   \
+   1   6   9
+  / \
+ 0   3
+    / \
+   2   4
